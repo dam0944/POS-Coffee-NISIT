@@ -40,7 +40,7 @@ Coffee NISIT POS System is designed for small to medium-sized coffee shops, enab
 
 Fast, intuitive order-taking interface with a product catalog, real-time cart, and payment actions.
 
-![image1](image1)
+![image](https://github.com/user-attachments/assets/a65db1a9-ab97-4b50-bd24-e18cb9e1895a)
 
 ---
 
@@ -48,7 +48,7 @@ Fast, intuitive order-taking interface with a product catalog, real-time cart, a
 
 Track all daily sales transactions. Filter, search, and export invoices for accounting or review.
 
-![image2](image2)
+![image](https://github.com/user-attachments/assets/92e9df4c-1200-4cab-9d01-bd504ceff247)
 
 ---
 
@@ -56,7 +56,7 @@ Track all daily sales transactions. Filter, search, and export invoices for acco
 
 View, add, edit, or delete customer records. Search and filter for efficient customer service.
 
-![image3](image3)
+![image](https://github.com/user-attachments/assets/5da299b9-4aa2-4056-b772-7935de9e30b0)
 
 ---
 
@@ -64,11 +64,11 @@ View, add, edit, or delete customer records. Search and filter for efficient cus
 
 Monitor shift-wise open/close balances, profits, and responsible staff for transparent operations.
 
-![image4](image4)
+![image](https://github.com/user-attachments/assets/4a79eecc-b934-44a1-ba59-90c68b9a0c9c)
 
 You can also export detailed shift data to Excel for audit and analysis:
 
-![image5](image5)
+![image](https://github.com/user-attachments/assets/097908a0-ac38-470b-8071-81775b5b3b71)
 
 ---
 
@@ -84,7 +84,7 @@ Organize products by category, price, discount, stock, and images. Add, edit, or
 
 Summarize sales by user, monitor performance, and export sales reports as PDF for business review.
 
-![image7](image7)
+![image](https://github.com/user-attachments/assets/c886d2f3-4b12-42a8-9ecb-0522e351cd49)
 
 ---
 
@@ -92,11 +92,11 @@ Summarize sales by user, monitor performance, and export sales reports as PDF fo
 
 Assign roles and permissions to users (e.g., HR, Manager, Cashier, Accounting) for secure, organized access control.
 
-![image8](image8)
+![image](https://github.com/user-attachments/assets/a08c1758-af9b-4c52-8639-13fd1a617dbd)
 
 Set roles and define what actions each user can perform, ensuring system security and efficient workflow.
 
-![image9](image9)
+![image](https://github.com/user-attachments/assets/5044c446-d05c-490f-8efe-b54d9f576e8c)
 
 ---
 
@@ -105,7 +105,7 @@ Set roles and define what actions each user can perform, ensuring system securit
 - **Frontend:** React.js (JavaScript, HTML, CSS)
 - **Backend:** Laravel (PHP)
 - **Database:** MySQL
-- **Other:** Axios, Bootstrap/Material UI
+- **Other:** Axios, TailwindCSS/Ant Design
 
 ---
 
@@ -145,8 +145,8 @@ Visit [http://localhost:3000](http://localhost:3000) to start using the POS syst
 
 ## Contact
 
-Created by [Your Name]  
-Email: [your.email@example.com]
+Created by [Ang Dam]  
+Email: [dam619404@gmail.com]
 
 ---
 
