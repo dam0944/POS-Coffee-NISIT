@@ -120,7 +120,6 @@ Set roles and define what actions each user can perform, ensuring system securit
 ### Backend Setup (Laravel)
 
 ```bash
-git clone https://github.com/yourusername/coffeenisit-backend.git
 cd coffeenisit-backend
 composer install
 cp .env.example .env
@@ -133,7 +132,6 @@ php artisan serve
 ### Frontend Setup (React)
 
 ```bash
-git clone https://github.com/yourusername/coffeenisit-frontend.git
 cd coffeenisit-frontend
 npm install
 npm start
