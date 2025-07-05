@@ -1,17 +1,22 @@
 # Coffee NISIT
 
-Coffee NISIT is a modern web application designed to streamline coffee shop operations through an advanced point of sale (POS) system. Built with a React.js frontend and Laravel API backend, this project demonstrates my full-stack development skills, API integration, and a focus on user-centered design.
+Coffee NISIT is a modern web application designed to streamline coffee shop operations with an advanced Point of Sale (POS) system. Built using React.js for the frontend and Laravel for the backend, this project demonstrates my full-stack development skills, API integration, and focus on user-centered design.
 
 ---
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Authentication Forms](#authentication-forms)
-  - [Login Form](#login-form)
-  - [Create Account Form](#create-account-form)
-- [Dashboard](#dashboard)
+- [Screenshots](#screenshots)
+  - [Authentication Forms](#authentication-forms)
+    - [Login Form](#login-form)
+    - [Create Account Form](#create-account-form)
+  - [Dashboard](#dashboard)
+  - [Point of Sale (POS)](#point-of-sale-pos)
+  - [Invoice Management](#invoice-management)
+  - [Customer Management](#customer-management)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -20,16 +25,24 @@ Coffee NISIT is a modern web application designed to streamline coffee shop oper
 
 ---
 
+## Overview
+
+Coffee NISIT helps coffee shop owners efficiently manage sales, inventory, employees, and customer data—all from a single, intuitive platform. With powerful analytics and daily reporting, it empowers businesses to improve service and make data-driven decisions.
+
+---
+
 ## Features
 
-- User authentication and secure session management
-- Role-based access for administrators, employees, and customers
-- Real-time sales analytics and performance dashboard
-- Online order placement and management
-- Inventory and product management
+- Secure user authentication and session management
+- Role-based access for administrators, staff, and customers
+- Real-time sales analytics and reporting dashboard
+- Modern Point of Sale (POS) with order/cart management
+- Product and inventory management
 - Employee and shift management
-- Detailed business reporting
-- Responsive design for desktop and mobile devices
+- Daily invoice management and transaction history
+- Comprehensive customer management
+- Exportable reports (Excel)
+- Responsive design for desktop and mobile
 
 ---
 
@@ -38,54 +51,88 @@ Coffee NISIT is a modern web application designed to streamline coffee shop oper
 - **Frontend:** React.js, JavaScript, HTML, CSS
 - **Backend:** Laravel (PHP), RESTful API
 - **Database:** MySQL
-- **UI Framework:** Bootstrap or Material-UI (optional)
+- **UI Framework:** Custom + Bootstrap/Material-UI (if used)
 - **Other:** Axios (API calls)
 
 ---
 
-## Authentication Forms
+## Screenshots
 
-Coffee NISIT provides a secure and user-friendly authentication system, including both login and account creation. These forms are designed for convenience, accessibility, and strong security, ensuring a smooth onboarding experience.
+### Authentication Forms
 
-### Login Form
+#### Login Form
 
-![image](https://github.com/user-attachments/assets/cd29c94a-537d-479c-8a2a-7b8ba1fbd5f6)
+![image2](image2)
 
-- **Modern UI:** Clean, branded design with intuitive layout.
-- **Secure Authentication:** Email and password login, with masked input.
-- **Session Management:** "Remember me for 30 days" for convenience.
-- **Account Recovery:** "Forgot Password?" for easy password reset.
-- **Account Creation Redirect:** Link for new users to create accounts.
-- **Professional Context:** Real-world POS system image for context.
+- Clean, modern interface with Coffee NISIT branding
+- Secure authentication: Email & password login (masked input)
+- "Remember me for 30 days" for convenience
+- "Forgot Password?" link for easy password recovery
+- Quick link to create a new account
+- Real-world POS context image for professional touch
 
-### Create Account Form
+#### Create Account Form
 
-![image](https://github.com/user-attachments/assets/b1cab16c-a50e-4a76-852f-2af32c2013b8)
+![image3](image3)
 
-- **Simple Registration:** Sign up with full name, email, and password.
-- **Password Strength Indicator:** Real-time feedback and checklist (min length, uppercase, lowercase, number, special character).
-- **User Guidance:** Visual cues and validation.
-- **Branded Experience:** Consistent, professional design.
-- **Login Redirect:** Easy access for returning users.
-
-Both forms are built for robust security and excellent user experience, reflecting industry standards and best practices.
+- Simple registration: Full name, email, password fields
+- Real-time password strength indicator and requirements checklist
+- Visual cues and validation for user guidance
+- Consistent, professional design
+- Link to login for returning users
 
 ---
 
-## Dashboard
+### Dashboard
 
-The core of Coffee NISIT is its analytics-rich admin dashboard, providing real-time insights into sales, orders, customers, and products.
+![image1](image1)
 
-![image](https://github.com/user-attachments/assets/e5efeae4-a863-4c3c-9908-2f70ea7fda8c)
-
-**Dashboard Highlights:**
-- Total sales tracking with visual analytics
-- Overview of total orders, customers, and products
+- Analytics-rich admin dashboard with real-time business metrics
+- Total sales, total orders, total customers, and total products at a glance
 - Monthly sales comparison chart
-- Quick navigation to sales, transactions, customers, orders, shifts, products, categories, employees, reports, and settings
-- Responsive, user-friendly interface
+- Quick links to Sales, Transactions, Customers, Orders, Shifts, Products, Categories, Employees, Reports, and Settings
+- Clean, user-friendly layout
 
-This dashboard streamlines management operations and delivers actionable business intelligence at a glance.
+---
+
+### Point of Sale (POS)
+
+![image4](image4)
+
+- Intuitive, visual menu with product images, categories, and prices
+- Quick Add to Cart with support for discounts and promotions
+- Real-time order/cart panel with subtotal and total calculation
+- Staff can clear, print, or proceed to payment with one click
+- Product availability and preparation time displayed for each item
+- Fast product search and category filters
+- Built for speed, accuracy, and a superior customer experience
+
+---
+
+### Invoice Management
+
+![image5](image5)
+
+- Daily sales overview: Total sales, total invoices, unique customers
+- Detailed transaction records: Invoice ID, payment method, amount, quantity, date, time, seller, and status
+- Powerful filters for user, date, and time
+- Status tracking for each transaction (e.g., rejected, completed)
+- Export invoices to Excel for reporting or analysis
+- Create, edit, or delete invoices easily
+- Essential for business audits and financial transparency
+
+---
+
+### Customer Management
+
+![image6](image6)
+
+- Organized customer list with name, gender, phone, email, address, and avatar
+- Quick actions: Add, edit, or delete customer records
+- Search and filter customers efficiently
+- Gender and contact info highlighted for easy recognition
+- Pagination for handling large customer databases
+- Clean, modern interface for easy management
 
 ---
 
@@ -93,8 +140,8 @@ This dashboard streamlines management operations and delivers actionable busines
 
 ### Prerequisites
 
-- Node.js & npm
-- Composer & PHP
+- Node.js and npm
+- Composer and PHP
 - MySQL
 
 ### Backend (Laravel API)
@@ -123,23 +170,24 @@ npm start
 
 ## Usage
 
-1. Start the Laravel backend server:  
+1. Make sure your backend (Laravel API) is running:  
    `php artisan serve`
-2. Start the React frontend:  
+2. Start the frontend (React):  
    `npm start`
-3. Visit `http://localhost:3000` in your browser.
-4. Register or log in to begin managing coffee shop operations!
+3. Open your browser and go to `http://localhost:3000`
+4. Register or log in to start using Coffee NISIT!
 
 ---
 
 ## Contributing
 
-Contributions are welcome!  
+Contributions are welcome!
+
 To contribute:
 1. Fork this repository
-2. Create a new branch (`git checkout -b feature/new-feature`)
+2. Create a new branch (`git checkout -b feature/your-feature`)
 3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
+4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
 ---
@@ -153,8 +201,8 @@ This project is licensed under the MIT License.
 ## Contact
 
 Created by [Your Name]  
-Contact: [your.email@example.com]
+Email: [your.email@example.com]
 
 ---
 
-> **This project was built as part of my portfolio for internship applications. It demonstrates my abilities in both frontend and backend development, API integration, secure authentication, and responsive user interface design.**
+> **This project was built as part of my portfolio to demonstrate my abilities in full-stack web development, UI/UX design, and real-world business application development. Thank you for reviewing my work for internship consideration!**
