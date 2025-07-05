@@ -76,7 +76,7 @@ You can also export detailed shift data to Excel for audit and analysis:
 
 Organize products by category, price, discount, stock, and images. Add, edit, or remove products easily.
 
-![image6](image6)
+![image](https://github.com/user-attachments/assets/4a17e288-47fd-4378-a52b-b6e94c8153fc)
 
 ---
 
