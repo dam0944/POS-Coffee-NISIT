@@ -1,6 +1,6 @@
 # Coffee NISIT POS System
 
-Coffee NISIT is a modern Point of Sale (POS) web application designed for coffee shops, built with a focus on ease of use, powerful features, and clean design. This system streamlines daily operations—sales, inventory, customers, employees, and reporting—making it ideal for both staff and managers.
+A modern, user-friendly Point of Sale (POS) web application for coffee shops. Coffee NISIT streamlines sales, inventory, staff, and reporting operations to help your business run efficiently. This README introduces the system’s features and provides context for internship applications.
 
 ---
 
@@ -9,93 +9,103 @@ Coffee NISIT is a modern Point of Sale (POS) web application designed for coffee
 - [Overview](#overview)
 - [Features](#features)
 - [Screenshots](#screenshots)
-  - [POS Screen](#pos-screen)
-  - [Invoice Management](#invoice-management)
-  - [Customer Management](#customer-management)
-  - [Shift Management](#shift-management)
-  - [Excel Export](#excel-export)
-  - [Product Management](#product-management)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Contact](#contact)
 
 ---
 
 ## Overview
 
-Coffee NISIT helps coffee shop owners and staff manage sales, customers, products, employees, and finances in one simple, intuitive platform. It supports daily reporting, sales analysis, and operational transparency—empowering better business decisions.
+Coffee NISIT POS System is designed for small to medium-sized coffee shops, enabling staff and managers to easily process sales, manage products, track shifts, handle roles, oversee customers, and generate useful reports—all within a clean and intuitive interface.
 
 ---
 
 ## Features
 
-- Fast, intuitive POS for order taking and payment
-- Real-time sales and invoice tracking
-- Shift-based sales/profit summaries
-- Powerful customer management
-- Product and inventory management
-- Export reports/data to Excel
-- User-friendly interface and responsive design
+- Quick order processing with a visual POS screen
+- Invoice management and daily sales tracking
+- Customer management and loyalty tracking
+- Shift management with profit and balance summaries
+- Product inventory and catalog management
+- Role-based access control for staff
+- Sales reports by user, time, and PDF export
+- Export data to Excel for audits or further analysis
 
 ---
 
 ## Screenshots
 
-### POS Screen
+### 1. POS (Point of Sale) Screen
 
-Effortless order taking with visual product catalog, real-time cart, and quick payment actions.
+Fast, intuitive order-taking interface with a product catalog, real-time cart, and payment actions.
 
 ![image1](image1)
 
 ---
 
-### Invoice Management
+### 2. Invoice Management
 
-Track all daily sales transactions, filter by user/date, and export invoices for reporting.
+Track all daily sales transactions. Filter, search, and export invoices for accounting or review.
 
 ![image2](image2)
 
 ---
 
-### Customer Management
+### 3. Customer Management
 
-View, add, edit, and delete customer records. Search and filter with ease.
+View, add, edit, or delete customer records. Search and filter for efficient customer service.
 
 ![image3](image3)
 
 ---
 
-### Shift Management
+### 4. Shift Management
 
-Monitor each shift’s open/close balances, profits, times, and responsible users for full financial transparency.
+Monitor shift-wise open/close balances, profits, and responsible staff for transparent operations.
 
 ![image4](image4)
 
----
-
-### Excel Export
-
-Export shift, sales, and other operational data to Excel for audits, analysis, or sharing with accounting.
+You can also export detailed shift data to Excel for audit and analysis:
 
 ![image5](image5)
 
 ---
 
-### Product Management
+### 5. Product Management
 
-Organize all products with category, price, discount, stock, and images. Add, edit, or remove products easily.
+Organize products by category, price, discount, stock, and images. Add, edit, or remove products easily.
 
 ![image6](image6)
 
 ---
 
+### 6. Sales Report
+
+Summarize sales by user, monitor performance, and export sales reports as PDF for business review.
+
+![image7](image7)
+
+---
+
+### 7. Role Management
+
+Assign roles and permissions to users (e.g., HR, Manager, Cashier, Accounting) for secure, organized access control.
+
+![image8](image8)
+
+Set roles and define what actions each user can perform, ensuring system security and efficient workflow.
+
+![image9](image9)
+
+---
+
 ## Tech Stack
 
-- **Frontend:** React.js, JavaScript, HTML, CSS
-- **Backend:** Laravel (PHP), REST API
+- **Frontend:** React.js (JavaScript, HTML, CSS)
+- **Backend:** Laravel (PHP)
 - **Database:** MySQL
-- **Other:** Axios, Bootstrap/Material-UI (optional)
+- **Other:** Axios, Bootstrap/Material UI
 
 ---
 
@@ -107,20 +117,20 @@ Organize all products with category, price, discount, stock, and images. Add, ed
 - Composer and PHP
 - MySQL
 
-### Backend (Laravel)
+### Backend Setup (Laravel)
 
 ```bash
 git clone https://github.com/yourusername/coffeenisit-backend.git
 cd coffeenisit-backend
 composer install
 cp .env.example .env
-# Configure database settings in .env
+# Edit .env for your database credentials
 php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
 
-### Frontend (React)
+### Frontend Setup (React)
 
 ```bash
 git clone https://github.com/yourusername/coffeenisit-frontend.git
@@ -129,14 +139,7 @@ npm install
 npm start
 ```
 
----
-
-## Usage
-
-1. Ensure your Laravel backend is running (`php artisan serve`).
-2. Start the React frontend (`npm start`).
-3. Open your browser to [http://localhost:3000](http://localhost:3000).
-4. Register a user account or log in to start using the POS system.
+Visit [http://localhost:3000](http://localhost:3000) to start using the POS system.
 
 ---
 
@@ -147,4 +150,4 @@ Email: [your.email@example.com]
 
 ---
 
-> This project demonstrates my skills in full-stack web development, UI/UX, and business software—thank you for your consideration for internship opportunities!
+> This project demonstrates skills in full-stack web development, UI/UX, and business software design. Thank you for considering my application for your internship program!
