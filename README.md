@@ -200,8 +200,8 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Created by [Your Name]  
-Email: [your.email@example.com]
+Created by [Ang Dam]  
+Email: [dam619404@gmail.com]
 
 ---
 
