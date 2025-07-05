@@ -1,6 +1,6 @@
-# Coffee NISIT
+# Coffee NISIT POS System
 
-Coffee NISIT is a modern web application designed to streamline coffee shop operations with an advanced Point of Sale (POS) system. Built using React.js for the frontend and Laravel for the backend, this project demonstrates my full-stack development skills, API integration, and focus on user-centered design.
+Coffee NISIT is a modern Point of Sale (POS) web application designed for coffee shops, built with a focus on ease of use, powerful features, and clean design. This system streamlines daily operations—sales, inventory, customers, employees, and reporting—making it ideal for both staff and managers.
 
 ---
 
@@ -8,135 +8,98 @@ Coffee NISIT is a modern web application designed to streamline coffee shop oper
 
 - [Overview](#overview)
 - [Features](#features)
-- [Tech Stack](#tech-stack)
 - [Screenshots](#screenshots)
-  - [Authentication Forms](#authentication-forms)
-    - [Login Form](#login-form)
-    - [Create Account Form](#create-account-form)
-  - [Dashboard](#dashboard)
-  - [Point of Sale (POS)](#point-of-sale-pos)
+  - [POS Screen](#pos-screen)
   - [Invoice Management](#invoice-management)
   - [Customer Management](#customer-management)
-- [Installation](#installation)
+  - [Shift Management](#shift-management)
+  - [Excel Export](#excel-export)
+  - [Product Management](#product-management)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
 
 ## Overview
 
-Coffee NISIT helps coffee shop owners efficiently manage sales, inventory, employees, and customer data—all from a single, intuitive platform. With powerful analytics and daily reporting, it empowers businesses to improve service and make data-driven decisions.
+Coffee NISIT helps coffee shop owners and staff manage sales, customers, products, employees, and finances in one simple, intuitive platform. It supports daily reporting, sales analysis, and operational transparency—empowering better business decisions.
 
 ---
 
 ## Features
 
-- Secure user authentication and session management
-- Role-based access for administrators, staff, and customers
-- Real-time sales analytics and reporting dashboard
-- Modern Point of Sale (POS) with order/cart management
+- Fast, intuitive POS for order taking and payment
+- Real-time sales and invoice tracking
+- Shift-based sales/profit summaries
+- Powerful customer management
 - Product and inventory management
-- Employee and shift management
-- Daily invoice management and transaction history
-- Comprehensive customer management
-- Exportable reports (Excel)
-- Responsive design for desktop and mobile
+- Export reports/data to Excel
+- User-friendly interface and responsive design
+
+---
+
+## Screenshots
+
+### POS Screen
+
+Effortless order taking with visual product catalog, real-time cart, and quick payment actions.
+
+![image1](image1)
+
+---
+
+### Invoice Management
+
+Track all daily sales transactions, filter by user/date, and export invoices for reporting.
+
+![image2](image2)
+
+---
+
+### Customer Management
+
+View, add, edit, and delete customer records. Search and filter with ease.
+
+![image3](image3)
+
+---
+
+### Shift Management
+
+Monitor each shift’s open/close balances, profits, times, and responsible users for full financial transparency.
+
+![image4](image4)
+
+---
+
+### Excel Export
+
+Export shift, sales, and other operational data to Excel for audits, analysis, or sharing with accounting.
+
+![image5](image5)
+
+---
+
+### Product Management
+
+Organize all products with category, price, discount, stock, and images. Add, edit, or remove products easily.
+
+![image6](image6)
 
 ---
 
 ## Tech Stack
 
 - **Frontend:** React.js, JavaScript, HTML, CSS
-- **Backend:** Laravel (PHP), RESTful API
+- **Backend:** Laravel (PHP), REST API
 - **Database:** MySQL
-- **UI Framework:** Custom + Bootstrap/Material-UI (if used)
-- **Other:** Axios (API calls)
+- **Other:** Axios, Bootstrap/Material-UI (optional)
 
 ---
 
-## Screenshots
-
-### Authentication Forms
-
-#### Login Form
-
-![image2](image2)
-
-- Clean, modern interface with Coffee NISIT branding
-- Secure authentication: Email & password login (masked input)
-- "Remember me for 30 days" for convenience
-- "Forgot Password?" link for easy password recovery
-- Quick link to create a new account
-- Real-world POS context image for professional touch
-
-#### Create Account Form
-
-![image3](image3)
-
-- Simple registration: Full name, email, password fields
-- Real-time password strength indicator and requirements checklist
-- Visual cues and validation for user guidance
-- Consistent, professional design
-- Link to login for returning users
-
----
-
-### Dashboard
-
-![image1](image1)
-
-- Analytics-rich admin dashboard with real-time business metrics
-- Total sales, total orders, total customers, and total products at a glance
-- Monthly sales comparison chart
-- Quick links to Sales, Transactions, Customers, Orders, Shifts, Products, Categories, Employees, Reports, and Settings
-- Clean, user-friendly layout
-
----
-
-### Point of Sale (POS)
-
-![image4](image4)
-
-- Intuitive, visual menu with product images, categories, and prices
-- Quick Add to Cart with support for discounts and promotions
-- Real-time order/cart panel with subtotal and total calculation
-- Staff can clear, print, or proceed to payment with one click
-- Product availability and preparation time displayed for each item
-- Fast product search and category filters
-- Built for speed, accuracy, and a superior customer experience
-
----
-
-### Invoice Management
-
-![image5](image5)
-
-- Daily sales overview: Total sales, total invoices, unique customers
-- Detailed transaction records: Invoice ID, payment method, amount, quantity, date, time, seller, and status
-- Powerful filters for user, date, and time
-- Status tracking for each transaction (e.g., rejected, completed)
-- Export invoices to Excel for reporting or analysis
-- Create, edit, or delete invoices easily
-- Essential for business audits and financial transparency
-
----
-
-### Customer Management
-
-![image6](image6)
-
-- Organized customer list with name, gender, phone, email, address, and avatar
-- Quick actions: Add, edit, or delete customer records
-- Search and filter customers efficiently
-- Gender and contact info highlighted for easy recognition
-- Pagination for handling large customer databases
-- Clean, modern interface for easy management
-
----
-
-## Installation
+## Getting Started
 
 ### Prerequisites
 
@@ -144,20 +107,20 @@ Coffee NISIT helps coffee shop owners efficiently manage sales, inventory, emplo
 - Composer and PHP
 - MySQL
 
-### Backend (Laravel API)
+### Backend (Laravel)
 
 ```bash
 git clone https://github.com/yourusername/coffeenisit-backend.git
 cd coffeenisit-backend
 composer install
 cp .env.example .env
-# Configure your database settings in .env
+# Configure database settings in .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
 
-### Frontend (React.js)
+### Frontend (React)
 
 ```bash
 git clone https://github.com/yourusername/coffeenisit-frontend.git
@@ -170,39 +133,18 @@ npm start
 
 ## Usage
 
-1. Make sure your backend (Laravel API) is running:  
-   `php artisan serve`
-2. Start the frontend (React):  
-   `npm start`
-3. Open your browser and go to `http://localhost:3000`
-4. Register or log in to start using Coffee NISIT!
-
----
-
-## Contributing
-
-Contributions are welcome!
-
-To contribute:
-1. Fork this repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## License
-
-This project is licensed under the MIT License.
+1. Ensure your Laravel backend is running (`php artisan serve`).
+2. Start the React frontend (`npm start`).
+3. Open your browser to [http://localhost:3000](http://localhost:3000).
+4. Register a user account or log in to start using the POS system.
 
 ---
 
 ## Contact
 
-Created by [Ang Dam]  
-Email: [dam619404@gmail.com]
+Created by [Your Name]  
+Email: [your.email@example.com]
 
 ---
 
-> **This project was built as part of my portfolio to demonstrate my abilities in full-stack web development, UI/UX design, and real-world business application development. Thank you for reviewing my work for internship consideration!**
+> This project demonstrates my skills in full-stack web development, UI/UX, and business software—thank you for your consideration for internship opportunities!
