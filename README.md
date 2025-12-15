@@ -19,21 +19,6 @@ A modern, user-friendly Point of Sale (POS) web application for coffee shops. Co
 
 Coffee NISIT POS System is designed for small to medium-sized coffee shops, enabling staff and managers to easily process sales, manage products, track shifts, handle roles, oversee customers, and generate useful reports—all within a clean and intuitive interface.
 
----
-
-## Features
-
-- Quick order processing with a visual POS screen
-- Invoice management and daily sales tracking
-- Customer management and loyalty tracking
-- Shift management with profit and balance summaries
-- Product inventory and catalog management
-- Role-based access control for staff
-- Sales reports by user, time, and PDF export
-- Export data to Excel for audits or further analysis
-
----
-
 ## Screenshots
 
 ### 1. POS (Point of Sale) Screen
